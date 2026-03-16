@@ -1,42 +1,45 @@
 # 🏛️ Corporate Intelligence & Predictive Suite
+**An Enterprise-Grade Analytics Portal for Data-Driven Decision Making.**
 
-A centralized "Master Portal" containing four high-impact Data Science applications. This suite transforms raw organizational data into actionable strategies for Marketing, Operations, Sales, and Human Resources.
-
-## 🛠️ Included Applications
-
-### 1. 🎯 Customer RFM Engine
-- **Focus:** Marketing & CRM
-- **Value:** Segments customers into behavioral groups (Champions, At Risk, etc.) and predicts the "Probability of Being Alive" (P-Alive).
-- **Impact:** Optimizes ad spend and increases customer retention.
-
-### 2. 📈 Inventory & Sales Forecasting
-- **Focus:** Supply Chain & Operations
-- **Value:** Uses Meta's **Prophet** model to forecast demand and calculate **Safety Stock** and **Reorder Points**.
-- **Impact:** Reduces capital tied up in excess inventory and prevents lost sales from stockouts.
-
-### 3. 🛒 Market Basket Analysis
-- **Focus:** Sales & Merchandising
-- **Value:** Mines transaction logs for product correlations using the **Apriori** algorithm.
-- **Impact:** Powers "Frequently Bought Together" bundles and optimizes store/website layouts.
-
-### 4. 🛡️ HR Attrition Early Warning
-- **Focus:** Human Resources & Talent Management
-- **Value:** A machine learning classifier that flags "Flight Risk" employees based on historical turnover patterns.
-- **Impact:** Drastically reduces hiring costs by enabling proactive employee retention.
+This repository contains a centralized suite of eight high-impact Data Science applications. Designed for modern organizations, these tools transform raw data into strategic insights across Marketing, Sales, Operations, Finance, and HR.
 
 ---
 
-## 📂 Project Structure
+## 🚀 The Analytics Portfolio
+
+### 📈 Operations & Growth
+* **Customer RFM Engine:** Segments customers by value and predicts "Probability of Activity" (P-Alive) to optimize retention.
+* **Inventory & Sales Forecasting:** Uses Meta’s **Prophet** model to predict demand, calculate **Safety Stock**, and define **Reorder Points**.
+* **Dynamic Pricing Optimizer:** Analyzes price elasticity to find the "Sweet Spot" that maximizes total gross revenue.
+
+### 🛒 Sales & Marketing
+* **Market Basket Analysis:** Mines transaction logs for product correlations using the **Apriori** algorithm to drive cross-selling.
+* **Sales Lead Scorer:** A predictive model that ranks leads by conversion probability, focusing sales efforts on "Hot" prospects.
+* **Sentiment & Brand Tracker:** An NLP engine that analyzes customer reviews to monitor brand health and identify product flaws.
+
+### 🛡️ Risk & Talent Management
+* **HR Attrition Early Warning:** A classification model that identifies "Flight Risk" employees before they resign.
+* **Anomalous Expense Detector:** An unsupervised AI auditor that flags unusual financial transactions and potential fraud.
+
+---
+
+## 📂 Project Architecture
+The suite is built using a **Streamlit Multipage** architecture for a seamless user experience.
+
 ```text
 corporate_suite/
-├── Home.py                <-- Main Entry Point
-├── requirements.txt       <-- Combined dependencies
-├── generate_all_data.py   <-- Script to create sample data for all apps
-└── pages/                 <-- Streamlit multipage directory
-    ├── 01_Customer_RFM.py
-    ├── 02_Inventory_Forecast.py
-    ├── 03_Market_Basket.py
-    └── 04_HR_Attrition.py
+├── Home.py                  <-- Master Portal Landing Page
+├── requirements.txt         <-- Unified library dependencies
+├── README.md                <-- Project Documentation
+├── pages/                   <-- Application Modules
+│   ├── 01_Customer_RFM.py
+│   ├── 02_Inventory_Forecast.py
+│   ├── 03_Market_Basket.py
+│   ├── 04_HR_Attrition.py
+│   ├── 05_Pricing_Optimizer.py
+│   ├── 06_Sentiment_Tracker.py
+│   ├── 07_Lead_Scoring.py
+│   └── 08_Anomaly_Detector.py
 
 Developed by SG Venture Consulting
 Principal Consultant: Patrick Oh
