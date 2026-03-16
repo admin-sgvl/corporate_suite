@@ -72,6 +72,8 @@ st.divider()
 # --- FOOTER ---
 st.markdown("""
 ### 🚀 Getting Started
+Note: Same synthetic data sets can be obtained at Github - https://github.com/admin-sgvl/corporate_suite/
+Synthetic Generators can also be found inside if want more data.
 1. Prepare your data in **CSV format**.
 2. Navigate to the desired tool using the **sidebar on the left**.
 3. Upload your file to see real-time predictive insights.
